@@ -1,0 +1,1258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+header h1{
+    color: #293845;
+    text-align: center; 
+    font-family: system-ui, sans-serif;
+    font-size: xx-large;
+    margin-top: 2%;
+}
+
+header p{
+    font-family: system-ui, sans-serif;
+    text-align: center;
+    margin: 30px;
+    color: #293845;
+}
+
+header a{
+    width: 100%;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #708090;
+}
+
+header nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #FAE6D8;
+    border: 3px solid #EEA26B;
+    font-family: system-ui, sans-serif;
+    padding: 20px;
+    gap: 30px;
+}
+
+/*containers*/
+/*1*/
+
+.patasybigotes {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titulo-uno {
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.parrafo {
+    width:  500px;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.imagen1 {
+    display: flex;
+}
+
+.imagen1 img{
+    justify-content: space-around;
+}
+
+/*2*/
+
+.patasybigotes2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.titulo-dos{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.parrafo-dos{
+    width:  500px;
+    text-align: right;
+    font-family: system-ui, sans-serif;
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.imagen2{
+    display: flex;
+}
+
+.imagen2 img{
+    justify-content: space-around;
+    width: 500px;
+    height: 500px;
+}
+
+
+/*3*/
+
+.container-tres {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: flex; 
+    height: 50px;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    font-size: 5vw; 
+    font-family: system-ui, sans-serif;
+    background-color: #E8833A; 
+}
+
+.container-tres h4 {
+    color: #FFFFFF; 
+    font-size: 16px; 
+    margin: 0; 
+}
+
+
+footer{
+    margin-bottom: 10px;
+    display: flex;
+    font-family: system-ui, sans-serif;
+    justify-content: center;
+    color: #3C4A56;
+    font-weight: bold;
+}
+
+.cosospan{
+    color: #785dc8;
+}
+
+
+/*html mision*/
+body{
+    background-color: #FFFFFF;
+}
+
+.header-h1 {
+    color: #293845;
+    text-align: center; 
+    font-family: system-ui, sans-serif;
+    font-size: xx-large;
+    margin-top: 2%;
+}
+
+.parrafo-header{
+    font-family: system-ui, sans-serif;
+    text-align: center;
+    margin: 30px;
+    color: #293845;
+}
+
+.menu-mision header a{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #708090;
+}
+
+.menu-mision header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #FAE6D8;
+    border: 3px solid #EEA26B;
+    font-family: system-ui, sans-serif;
+    padding: 20px;
+    gap: 30px;
+}
+
+/*container de mision*/
+
+.patasybigotes-mision{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.tituloh1-mision{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.parrafoh2-mision{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.imagen1-mision{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.imagen1-mision img{
+        justify-content: space-around;
+        margin-bottom: 10px;
+}
+
+/*html dona*/
+body{
+    background-color: #FFFFFF;
+}
+
+.header-h1 {
+    color: #293845;
+    text-align: center; 
+    font-family: system-ui, sans-serif;
+    font-size: xx-large;
+    margin-top: 2%;
+}
+
+.parrafo-header{
+    font-family: system-ui, sans-serif;
+    text-align: center;
+    margin: 30px;
+    color: #293845;
+}
+
+.dona-menu header a{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #708090;
+}
+
+.dona-menu header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #FAE6D8;
+    border: 3px solid #EEA26B;
+    font-family: system-ui, sans-serif;
+    padding: 20px;
+    gap: 30px;
+}
+
+/*containers de dona*/
+.patasybigotes-dona{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.tituloh1-dona{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.parrafoh1-dona{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.imagen1-dona{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.imagen1-dona img{
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.imagen2-dona{
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.imagen2-dona img{
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.tituloh2-dona{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.parrafoh2-dona{
+    width:  500px;
+    text-align: right;
+    font-family: system-ui, sans-serif;
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.imagen3-dona{
+    display: flex;
+}
+
+.imagen3-dona img{
+    justify-content: space-around;
+    width: 500px;
+    height: 500px;
+}
+
+/*html rescata*/
+body{
+    background-color: #FFFFFF;
+}
+
+.header-h1 {
+    color: #293845;
+    text-align: center; 
+    font-family: system-ui, sans-serif;
+    font-size: xx-large;
+    margin-top: 2%;
+}
+
+.parrafo-header{
+    font-family: system-ui, sans-serif;
+    text-align: center;
+    margin: 30px;
+    color: #293845;
+}
+
+.rescata-menu header a{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #708090;
+}
+
+.rescata-menu header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #FAE6D8;
+    border: 3px solid #EEA26B;
+    font-family: system-ui, sans-serif;
+    padding: 20px;
+    gap: 30px;
+}
+
+/*containers de rescata*/
+.patasybigotes-rescata{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.tituloh2-rescata{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.parrafoh2.rescata{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.tituloh3-rescata{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.parrafoh3-rescata{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.tituloh4-rescata{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.parrafoh4-rescata{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+/*html adopta*/
+body{
+    background-color: #FFFFFF;
+}
+
+.header-h1 {
+    color: #293845;
+    text-align: center; 
+    font-family: system-ui, sans-serif;
+    font-size: xx-large;
+    margin-top: 2%;
+}
+
+.parrafo-header{
+    font-family: system-ui, sans-serif;
+    text-align: center;
+    margin: 30px;
+    color: #293845;
+}
+
+.adopta-menu header a{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #708090;
+}
+
+.adopta-menu header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #FAE6D8;
+    border: 3px solid #EEA26B;
+    font-family: system-ui, sans-serif;
+    padding: 20px;
+    gap: 30px;
+}
+
+/*containers de adopta*/
+.patasybigotes-adopta{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tituloh2-adopta{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.parrafoh2-adopta{
+    width:  500px;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.imagen1-adopta{
+    display: flex;
+}
+
+.imagen1-adopta img{
+    justify-content: space-around;
+}
+
+.patasybigotes2-adopta{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.tituloh3-adopta{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.parrafoh3-adopta{
+    width:  500px;
+    text-align: right;
+    font-family: system-ui, sans-serif;
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.imagen2-adopta{
+    display: flex;
+}
+
+.imagen2-adopta img{
+    justify-content: space-around;
+    width: 500px;
+    height: 500px;
+}
+
+/*html apadrina*/
+body{
+    background-color: #FFFFFF;
+}
+
+.header-h1 {
+    color: #293845;
+    text-align: center; 
+    font-family: system-ui, sans-serif;
+    font-size: xx-large;
+    margin-top: 2%;
+}
+
+.parrafo-header{
+    font-family: system-ui, sans-serif;
+    text-align: center;
+    margin: 30px;
+    color: #293845;
+}
+
+.apadrina-menu header a{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #708090;
+}
+
+.apadrina-menu header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #FAE6D8;
+    border: 3px solid #EEA26B;
+    font-family: system-ui, sans-serif;
+    padding: 20px;
+    gap: 30px;
+}
+
+/*GRID DE APADRINA Y RESCATA*/
+.g-col-6{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+
+  /* Estilo para pantallas pequeñas (celulares) */
+@media (max-width: 480px) {
+body {
+font-size: 14px;
+line-height: 1.4;
+}
+
+
+.collapse:not(.show) {
+    display: flex;
+}
+
+.container {
+    width: 95%;
+    padding: 0 10px;
+    }
+
+header nav ul{
+    width: 100%;
+    flex-direction: column; /* Cambiar menú horizontal a vertical */
+    padding: 0;
+    justify-content: center;
+}
+
+header nav ul li {
+    padding: 10px;
+    margin: 0.5rem 0;
+    justify-content: center;
+}
+
+header nav ul li a{
+font-size: 16px;
+justify-content: center;
+}
+
+/*containers*/
+/*1*/
+.patasybigotes {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+}
+
+.titulo-uno {
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: larger;
+    color: #e27f38;
+}
+
+.parrafo {
+    padding: 10px;
+    width: 100%;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.imagen1 {
+    display: flex;
+}
+
+.imagen1 img{
+    margin-top: 10px;
+    justify-content: center;
+}
+
+/*2*/
+
+.patasybigotes2{
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+
+.titulo-dos{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: larger;
+    color: #e27f38;
+}
+
+.parrafo-dos{
+    padding: 10px;
+    width:  500px;
+    text-align: right;
+    font-family: system-ui, sans-serif;
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.imagen2{
+    display: flex;
+}
+
+.imagen2 img{
+    margin-top: 10px;
+    justify-content: center;
+}
+
+/*adopta*/
+.adopta-menu header a{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #708090;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    background-color: #FAE6D8;
+    border: 3px solid #EEA26B;
+    font-family: system-ui, sans-serif;
+    gap: 30px;
+    align-items: center;
+}
+
+/*container adopta*/
+/*1*/
+
+.patasybigotes-adopta {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloh2-adopta {
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: larger;
+    color: #e27f38;
+}
+
+.parrafoh2-adopta {
+    padding: 10px;
+    width: 100%;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.imagen1-adopta {
+    display: flex;
+}
+
+.imagen1-adopta img{
+    margin-top: 10px;
+    justify-content: center;
+}
+
+/*2*/
+.patasybigotes2-adopta {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloh3-adopta {
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: larger;
+    color: #e27f38;
+}
+
+.parrafoh3-adopta {
+    padding: 10px;
+    width: 100%;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.imagen2-adopta {
+    display: flex;
+}
+
+.imagen2-adopta img{
+    margin-top: 10px;
+    justify-content: center;
+}
+
+/*dona containers*/
+
+.patasybigotes-dona {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+}
+
+.tituloh1-dona {
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: larger;
+    color: #e27f38;
+}
+
+.parrafoh1-dona {
+    padding: 10px;
+    width: 100%;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.imagen1-dona {
+    display: flex;
+}
+
+.imagen1-dona img{
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.imagen2-dona {
+    display: flex;
+}
+
+.imagen2-dona img{
+    margin-top: 10px;
+    justify-content: center;
+}
+
+/*2*/
+.tituloh2-dona {
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: larger;
+    color: #e27f38;
+}
+
+.parrafoh2-dona {
+    padding: 10px;
+    width: 100%;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.imagen3-dona {
+    display: flex;
+}
+
+.imagen2-dona img{
+    margin-top: 10px;
+    justify-content: center;
+}
+
+/*mision*/
+/*container 1*/
+.patasybigotes-mision {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+}
+
+.tituloh1-mision{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: larger;
+    color: #e27f38;
+}
+
+.parrafoh1-mision{
+    padding: 10px;
+    width: 100%;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.imagen1-mision {
+    display: flex;
+}
+
+.imagen1-mision img{
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.dona-container2 {
+    color: #FFFFFF; 
+    font-size: 16px; 
+    margin: 0; 
+}
+
+.dona-container2 h2{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: flex; 
+    height: 50px;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    font-size: 5vw; 
+    font-family: system-ui, sans-serif;
+    background-color: #E8833A; 
+}
+
+/*containers rescata*/
+
+
+.tituloh4-rescata{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: larger;
+    color: #e27f38;
+}
+
+.parrafoh4-rescata{
+    padding: 10px;
+    width: 100%;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+}
+
+/* Estilo desktop index*/
+@media (max-width: 1366px) {
+    body {
+    font-size: 14px;
+    line-height: 1.4;
+    }
+
+
+.collapse:not(.show) {
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    padding: 0 10px;
+}
+.logo-refugio img{
+    width: 50%;
+}
+
+header nav ul li {
+    padding: 10px;
+    margin: 0.5rem 0;
+    justify-content: center;
+}
+
+header nav ul li a{
+    font-size: 16px;
+    justify-content: center;
+    }
+
+.patasybigotes {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titulo-uno {
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.parrafo{
+    width:  500px;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.imagen1 {
+    display: flex;
+}
+
+.imagen1 img{
+    justify-content: space-around;
+}
+
+/* Estilo desktop mision*/
+.patasybigotes-mision {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.tituloh1-mision{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.parrafoh1-mision{
+    padding: 10px;
+    width: 100%;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.imagen1-mision{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.imagen1-mision img{
+        justify-content: space-around;
+        margin-bottom: 10px;
+}
+
+.dona-container2 {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: flex; 
+    height: 50px;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    font-size: 5vw; 
+    font-family: system-ui, sans-serif;
+    background-color: #E8833A; 
+}
+
+.dona-container22 h2 {
+    color: #FFFFFF; 
+    font-size: 16px; 
+    margin: 0;      
+}
+
+/* Estilo desktop dona*/
+.patasybgotes-dona{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.tituloh1-dona{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.parrafoh1-dona{
+    width:  500px;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.imagen1-dona{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+
+.imagen1-dona img{
+    justify-content: space-around;
+    width: 50%;
+}
+.imagen2-dona{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    flex-wrap: nowrap;
+}
+.imagen2-dona{
+    justify-content: space-around;
+    width: 10%;
+}
+
+.patasybigotes-dona2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: stretch;
+    align-items: flex-start;
+}
+
+
+.tituloh2-dona{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.parrafoh2-dona{
+    width:  500px;
+    text-align: right;
+    font-family: system-ui, sans-serif;
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+
+}
+
+.imagen3-dona{
+    display: flex;
+}
+
+.imagen3-dona img{
+    justify-content: space-around;
+    width: 500px;
+    height: 500px;
+}
+
+/* Estilo desktop rescata*/
+.logo-refugio img{
+    width: 100%;
+}
+.patasybigotes-rescata{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.tituloh2-rescata{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.parrafoh2.rescata{
+    padding: 10px;
+    width: 100%;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.tituloh3-rescata{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.parrafoh3.rescata{
+    padding: 10px;
+    width: 100%;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.tituloh4-rescata{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.parrafoh4.rescata{
+    padding: 10px;
+    width: 100%;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+/* Estilo desktop adopta*/
+.patasybigotes-adopta{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tituloh2-adopta{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.parrafoh2-adopta{
+    width:  500px;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.imagen1-adopta{
+    display: flex;
+}
+
+
+.imagen1-adopta img{
+    justify-content: space-around;
+}
+
+.patasybigotes2-adopta{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.tituloh3-adopta{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+.parrafoh3-adopta{
+    width:  500px;
+    text-align: right;
+    font-family: system-ui, sans-serif;
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+.imagen2-adopta{
+    display: flex;
+}
+
+.imagen2-adopta img{
+    justify-content: space-around;
+    width: 500px;
+    height: 500px;
+}
+}
+
+
