@@ -1,0 +1,251 @@
+/*import mixin*/
+@import "../utilidades/mixin";
+
+/*estilos de mobile*/
+@media (max-width: 480px) {
+    body {
+        @include basicomobilebody;
+    }
+    
+    .collapse:not(.show) {
+        display: flex;
+    }
+    
+    .container {
+        @include mobilecontainer;
+        }
+    
+    header nav ul{
+        @include mobileheader;
+    }
+    
+    header nav ul li {
+        @include mobileheaderdos;
+    }
+    
+    header nav ul li a{
+        @include mobileheadertres;
+    }
+    
+    /*containers*/
+    /*1*/
+    .patasybigotes {
+        @include mobilepatasybigotes;
+    }
+    
+    .titulo-uno {
+        @include mobiletitulouno;
+    }
+    
+    .parrafo {
+    @include mobileparrafo;
+    }
+    
+    .imagen1 {
+        @include imagenflex;
+    }
+    
+    .imagen1 img{
+        margin-top: 10px;
+        justify-content: center;
+    }
+    
+    /*2*/
+    
+    .patasybigotes2{
+        @include mobilepatasybigotes;
+        }
+    
+    
+    .titulo-dos{
+        @include mobiletitulouno;
+    }
+    
+    .parrafo-dos{
+        @include mobileparrafo;
+    }
+    
+    .imagen2{
+        @include imagenflex;
+    }
+    
+    .imagen2 img{
+        margin-top: 10px;
+        justify-content: center;
+    }
+    
+    /*adopta*/
+    
+    /*containers*/
+    /*1*/
+    .patasybigotes-adopta {
+        @include mobilepatasybigotes
+    }
+    
+    .tituloh2-adopta {
+        @include mobiletitulouno
+    }
+    
+    .parrafoh2-adopta {
+        @include mobileparrafo
+    
+    }
+    
+    .imagen1-adopta {
+        @include imagenflex
+    }
+    
+    .imagen1-adopta img{
+        margin-top: 10px;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .patasybigotes2-adopta{
+        @include mobilepatasybigotes
+        }
+    
+    
+    .tituloh3-adopta{
+        @include mobiletitulouno;
+    }
+    
+    .parrafoh3-adopta{
+        @include mobileparrafo
+    }
+    
+    .imagen2-adopta{
+        @include imagenflex;
+    }
+    
+    .imagen2-adopta img{
+        margin-top: 10px;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    /*dona containers*/
+    body {
+        @include basicomobilebody;
+    }
+    
+    .collapse:not(.show) {
+        display: flex;
+    }
+    
+    .container {
+        @include mobilecontainer;
+        }
+    
+    header nav ul{
+        @include mobileheader;
+    }
+    
+    header nav ul li {
+        @include mobileheaderdos;
+    }
+    
+    header nav ul li a{
+        @include mobileheadertres;
+    }
+    .patasybigotes-dona {
+        @include mobilepatasybigotes;
+    }
+    
+    .tituloh1-dona {
+        @include mobiletitulouno;
+    }
+    
+    .parrafoh1-dona {
+        @include mobileparrafo
+    }
+    
+    .imagen1-dona {
+        @include imagenflex
+    }
+    
+    .imagen1-dona img{
+        @include mobileimagen;
+    }
+    
+    .imagen2-dona {
+        @include imagenflex
+    }
+    
+    .imagen2-dona img{
+        @include mobileimagen
+    }
+    
+    /*2*/
+    .tituloh2-dona {
+        @include mobiletitulouno
+    }
+    
+    .parrafoh2-dona {
+        @include mobileparrafo
+    }
+    
+    .imagen3-dona {
+        @include imagenflex
+    }
+    
+    .imagen2-dona img{
+        @include mobileimagen;
+    }
+    
+    /*mision*/
+    /*container 1*/
+    .patasybigotes-mision {
+        @include mobilepatasybigotes;
+    }
+    
+    .tituloh1-mision{
+        @include mobiletitulouno
+    }
+    
+    .parrafoh1-mision{
+        @include mobileparrafo
+    }
+    
+    .imagen1-mision {
+        @include imagenflex
+    }
+    
+    .imagen1-mision img{
+        width: 100%;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    
+    .dona-container2 {
+        color: #FFFFFF; 
+        font-size: 16px; 
+        margin: 0; 
+    }
+    
+    .dona-container2 h2{
+        margin-top: 70px;
+        margin-bottom: 50px;
+        display: flex; 
+        height: 50px;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+        font-size: 5vw; 
+        font-family: system-ui, sans-serif;
+        background-color: #E8833A; 
+    }
+    
+    /*containers rescata*/
+    
+    
+    .tituloh4-rescata{
+    @include mobiletitulouno;
+    }
+    
+    .parrafoh4-rescata{
+        @include mobileparrafo
+    }
+    }

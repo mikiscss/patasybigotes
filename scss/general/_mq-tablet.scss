@@ -1,0 +1,155 @@
+/*import mixin*/
+@import "../utilidades/mixin";
+
+/*estilos de tablet*/
+@media (min-width: 600px){
+    .patasybigotes {
+        @include patasybigotesindextablet;
+        }
+        
+    .titulo-uno {
+        @include patasybigotesindextabletitulo;
+        }
+        
+    .parrafo {
+        @include patasybigotesindextabletparrafo;
+        }
+        
+    .imagen1 {
+        @include imagenflex;
+        }
+        
+    .imagen1 img{
+        justify-content: space-around;
+        }
+
+    .patasybigotes2{
+        @include patasybigotesid;
+        }
+            
+    .titulo-dos{
+        @include patasybigotesindextablettitulodos;
+    }
+
+    .parrafo-dos{
+        @include patasybigotesparrafodos;
+        }
+            
+        .imagen2{
+        @include imagenflex;
+            }
+            
+        .imagen2 img{
+        @include patasybigotesdosimg;
+            }
+
+            /*html dona*/
+    .patasybigotes-dona {
+        @include patasybigotesindextablet;
+        }
+                
+    .titulo-uno {
+        @include patasybigotesindextabletitulo;
+        padding: 20px;
+        width: 90%;
+        }
+                
+    .parrafo {
+        @include patasybigotesindextabletparrafo;
+        padding: 10px;
+        }
+                
+    .imagen1 {
+        @include imagenflex;
+        width: 100%;
+        }
+                
+    .imagen1 img{
+        justify-content: space-around;
+        width: 350px;
+        height: 350px;
+        }
+    
+    .patasybigotes2{
+        @include patasybigotesid;
+        }
+                
+    .titulo-dos{
+        @include patasybigotesindextablettitulodos;
+        padding: 20px;
+        width: 90%;
+        }
+    
+    .parrafo-dos{
+        @include patasybigotesparrafodos;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        }
+                
+    .imagen4{
+        @include imagenflex;
+        }
+                
+    .imagen4 img{
+        @include patasybigotesdosimg;
+        width: 350px;
+        height: 350px;
+        }
+    
+        /*html adopta*/
+    .patasybigotes-adopta {
+        @include patasybigotesindextablet;
+        }
+                    
+    .tituloh2-adopta {
+        @include patasybigotesindextabletitulo;
+        padding: 20px;
+        width: 90%;
+        }
+                    
+    .parrafoh2-adopta {
+        @include patasybigotesindextabletparrafo;
+        padding: 10px;
+        }
+                    
+    .imagen1-adopta {
+        @include imagenflex;
+        width: 100%;
+        }
+                    
+    .imagen1-adopta img{
+        justify-content: space-around;
+        width: 350px;
+        height: 350px;
+        }
+        
+    .patasybigotes2-adopta{
+        @include patasybigotesid;
+        }
+
+    .tituloh3-adopta{
+        @include patasybigotesindextablettitulodos;
+        padding: 20px;
+        width: 90%;
+        }
+        
+    .parrafoh3-adopta{
+        @include patasybigotesparrafodos;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        }
+                    
+    .imagen2-adopta{
+        @include imagenflex;
+        }
+                    
+    .imagen2-adopta img{
+        @include patasybigotesdosimg;
+        width: 350px;
+        height: 350px;
+        }
+
+        }
+    

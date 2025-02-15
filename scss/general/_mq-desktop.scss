@@ -1,0 +1,158 @@
+/*import mixin*/
+@import "../utilidades/mixin";
+
+/*estilos de desktop*/
+@media (max-width: 1024px) {
+    .patasybigotes {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        @include patasybigotesindexhtml;
+    }
+            .titulo-uno{
+            @include tituloindexhtml;
+            }
+                .parrafo{
+                @include parrafoindexhtml;
+                }
+                    .imagen1{
+                    @include imagenflex;
+                    }  
+                        .imagen1 img{
+                            justify-content: space-around;
+                        }
+    
+    .patasybigotes2{
+        @include patasybigotesindexhtml;
+        flex-direction: row-reverse;
+    }
+        .titulo-dos{
+            @include tituloindexhtml;
+        }
+            .parrafo-dos{
+                @include parrafoindexhtml;
+            }
+                .imagen2{
+                    @include imagenflex
+                }
+                .imagen2 img{
+                    justify-content: space-around;
+                    width: 500px;
+                    height: 500px;
+                }
+    
+    .container-tres{
+        @include containertres;
+    }
+        .container-tres h4{
+            @include containertresh4;
+        }
+    
+    
+    /*estilos de footer*/
+    footer{
+        @include footer;
+    }
+    
+    .cosospan{
+        @include cosospan;
+    }
+
+    /*html mision*/
+
+.imagen2{
+    @include imagenflex;
+    justify-content: center;
+        @include imagen;
+            .imagen2 img{
+                @include imagendos;
+    }
+}
+
+/*html dona*/
+.patasybigotes-dona {
+    margin-top: 100px;
+    @include patasybigotesindexhtml;
+}
+        .tituloh1-dona{
+        @include tituloindexhtml;
+        }
+            .parrafoh1-dona{
+            @include parrafoindexhtml;
+            }
+                .imagen1-dona{
+                @include imagenflex;
+                }  
+                    .imagen1-dona img{
+                        justify-content:space-around;
+                    }
+
+.patasybigotes2{
+    @include patasybigotesindexhtml;
+    flex-direction: row-reverse;
+}
+    .titulo-dos{
+        @include tituloindexhtml;
+    }
+        .parrafo-dos{
+            @include parrafoindexhtml;
+        }
+            .imagen2{
+                @include imagenflex
+            }
+            .imagen2 img{
+                justify-content: space-around;
+                width: 500px;
+                height: 500px;
+            }
+
+/*html rescata*/
+.patasybigotes-rescata{
+    @include patasybigotesindexhtml;
+    flex-direction: column;
+} /*ojo terminar de corregir*/
+
+/*html adopta*/
+.patasybigotes-adopta{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    @include patasybigotesindexhtml;
+}
+        .tituloh2-adopta{
+        @include tituloindexhtml;
+        }
+            .parrafoh2-adopta{
+            @include parrafoindexhtml;
+            }
+                .imagen1-adopta{
+                @include imagenflex;
+                }  
+                    .imagen1-adopta img{
+                        justify-content:space-around;
+                    }
+
+.patasybigotes2-adopta{
+    @include patasybigotesindexhtml;
+    flex-direction: row-reverse;
+}
+    .tituloh3-adopta{
+        @include tituloindexhtml;
+    }
+        .parrafoh3-adopta{
+            @include parrafoindexhtml;
+        }
+            .imagen2-adopta{
+                @include imagenflex
+            }
+            .imagen2-adopta img{
+                justify-content: space-around;
+                width: 500px;
+                height: 500px;
+            }
+
+/*html apadrina y recata*/
+.g-col-6{
+    @include grid;
+}
+
+    }
+        

@@ -1,0 +1,18 @@
+//comentario en sass
+/*comentario en sass y css*/
+
+
+//import de reset
+@import "general/reset";
+
+//import de home
+@import "general/home";
+
+//import de tablet
+@import "general/mq-tablet";
+
+//import de desktop
+@import "general/mq-desktop";
+
+//immport de mobile
+@import "general/mq-mobile"

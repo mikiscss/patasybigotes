@@ -1,0 +1,251 @@
+//mixin con parametros  (hacer mixin de grid)
+
+
+//mixin sin parametros
+
+@mixin headerh1{
+    color: #293845;
+    text-align: center; 
+    font-family: system-ui, sans-serif;
+    font-size: xx-large;
+    margin-top: 2%;
+}
+
+@mixin headerp{
+    font-family: system-ui, sans-serif;
+    text-align: center;
+    margin: 30px;
+    color: #293845;
+}
+
+@mixin headera{
+    width: 100%;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #708090;
+}
+
+@mixin navflex{
+    display: flex;
+    justify-content: center;
+}
+
+@mixin patasybigotesindexhtml{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@mixin tituloindexhtml{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+@mixin parrafoindexhtml{
+    width:  500px;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+@mixin imagenflex{
+    display: flex;
+}
+
+@mixin imagenflexuno{
+    justify-content: space-around;
+    width: 500px;
+    height: 500px;
+}
+
+@mixin  containertres{
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: flex; 
+    height: 50px;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    font-size: 5vw; 
+    font-family: system-ui, sans-serif;
+    background-color: #E8833A; 
+}
+
+@mixin containertresh4{
+    color: #FFFFFF; 
+    font-size: 16px; 
+    margin: 0; 
+}
+
+@mixin footer{
+    margin-bottom: 10px;
+    display: flex;
+    font-family: system-ui, sans-serif;
+    justify-content: center;
+    color: #3C4A56;
+    font-weight: bold;
+}
+
+@mixin cosospan{
+    color: #785dc8;
+}
+
+@mixin imagen{
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+@mixin imagendos{
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+@mixin grid{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+@mixin patasybigotesindextablet{
+    margin-top: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@mixin patasybigotesindextabletitulo{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+@mixin patasybigotesindextabletparrafo{
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+    justify-content: center;
+}
+
+@mixin patasybigotesid{
+    margin-top: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+@mixin patasybigotesindextablettitulodos{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: x-large;
+    color: #e27f38;
+}
+
+@mixin patasybigotesparrafodos{
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    text-align: right;
+    font-family: system-ui, sans-serif;
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+@mixin patasybigotesdosimg{
+    justify-content: space-around;
+    width: 500px;
+    height: 500px;
+}
+
+@mixin container{
+    width: 95%;
+    padding: 0 10px;
+}
+
+@mixin headernavul{
+    width: 100%;
+    flex-direction: column; /* Cambiar menú horizontal a vertical */
+    padding: 0;
+    justify-content: center;
+}
+
+@mixin headernavulli{
+    padding: 10px;
+        margin: 0.5rem 0;
+        justify-content: center;
+}
+
+@mixin basicomobilebody{
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+@mixin mobilecontainer{
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+@mixin mobileheader{
+    width: 100%;
+    flex-direction: column; /* Cambiar menú horizontal a vertical */
+    padding: 0;
+    justify-content: center;
+}
+
+@mixin mobileheaderdos{
+    padding: 10px;
+    margin: 0.5rem 0;
+    justify-content: center;
+}
+
+@mixin mobileheadertres{
+    font-size: 16px;
+    justify-content: center;
+}
+
+@mixin mobilepatasybigotes{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+}
+
+@mixin mobiletitulouno{
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-size: larger;
+    color: #e27f38;
+}
+
+@mixin mobileparrafo{
+    padding: 10px;
+    width: 100%;
+    font-family: system-ui, sans-serif;    
+    color: #384957;
+    text-align: center;
+    text-align: justify;
+}
+
+@mixin mobileimagen{
+    margin-top: 10px;
+    justify-content: center;
+}
+//mixin con/sin parametros
