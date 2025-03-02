@@ -3,6 +3,7 @@
 
 /*estilos de desktop*/
 @media (max-width: 1024px) {
+
     .patasybigotes {
         margin-top: 100px;
         margin-bottom: 100px;
@@ -32,7 +33,7 @@
                 @include parrafoindexhtml;
             }
                 .imagen2{
-                    @include imagenflex
+                    @include imagenflex;
                 }
                 .imagen2 img{
                     justify-content: space-around;
@@ -155,4 +156,3 @@
 }
 
     }
-        

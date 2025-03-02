@@ -42,6 +42,7 @@ header h1 {
         }
             .parrafo{
             @include parrafoindexhtml;
+            padding: 100;
             }
                 .imagen1{
                 @include imagenflex;

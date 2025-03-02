@@ -33,10 +33,10 @@
 @mixin patasybigotesindexhtml{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 @mixin tituloindexhtml{
-    padding: 20px;
     text-align: center;
     font-family: system-ui, sans-serif;
     font-size: x-large;
@@ -49,6 +49,7 @@
     color: #384957;
     text-align: center;
     text-align: justify;
+
 }
 
 @mixin imagenflex{
@@ -59,7 +60,7 @@
     justify-content: space-around;
     width: 500px;
     height: 500px;
-}
+    }
 
 @mixin  containertres{
     color: white;
