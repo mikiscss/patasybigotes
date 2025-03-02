@@ -2,7 +2,7 @@
 @import "../utilidades/mixin";
 
 /*estilos de desktop*/
-@media (max-width: 1024px) {
+@media screen and (min-width: 1280px) and (max-width: 1728px) {
 
     .patasybigotes {
         margin-top: 100px;
@@ -77,8 +77,6 @@
 }
         .tituloh1-dona{
         @include tituloindexhtml;
-
-
         }
             .parrafoh1-dona{
             @include parrafoindexhtml;
@@ -101,12 +99,10 @@
             @include parrafoindexhtml;
         }
             .imagen2{
-                @include imagenflex
+                @include imagenflex;
             }
             .imagen2 img{
                 justify-content: space-around;
-                width: 500px;
-                height: 500px;
             }
 
 /*html rescata*/
@@ -120,6 +116,7 @@
     margin-top: 100px;
     margin-bottom: 100px;
     @include patasybigotesindexhtml;
+    padding-left: 55px;
 }
         .tituloh2-adopta{
         @include tituloindexhtml;
@@ -129,9 +126,12 @@
             }
                 .imagen1-adopta{
                 @include imagenflex;
+                height: 500px;
                 }  
                     .imagen1-adopta img{
                         justify-content:space-around;
+                        height: 500px;
+                        padding: 90px;
                     }
 
 .patasybigotes2-adopta{

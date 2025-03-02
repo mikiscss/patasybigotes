@@ -52,7 +52,7 @@ header a nav ul {
   margin-top: 100px;
   margin-bottom: 100px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin-left: 10%;
   margin-right: 10%;
@@ -69,9 +69,9 @@ header a nav ul {
   width: 500px;
   font-family: system-ui, sans-serif;
   color: #384957;
-  text-align: center;
   text-align: justify;
   padding: 25px !important;
+  justify-content: center;
   padding: 100;
 }
 
@@ -85,7 +85,7 @@ header a nav ul {
 
 .patasybigotes2 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin-left: 10%;
   margin-right: 10%;
@@ -103,9 +103,9 @@ header a nav ul {
   width: 500px;
   font-family: system-ui, sans-serif;
   color: #384957;
-  text-align: center;
   text-align: justify;
   padding: 25px !important;
+  justify-content: center;
 }
 
 .imagen2 {
@@ -169,7 +169,7 @@ footer {
 .patasybigotes-dona {
   margin-top: 100px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin-left: 10%;
   margin-right: 10%;
@@ -186,9 +186,9 @@ footer {
   width: 500px;
   font-family: system-ui, sans-serif;
   color: #384957;
-  text-align: center;
   text-align: justify;
   padding: 25px !important;
+  justify-content: center;
 }
 
 .imagen1-dona {
@@ -201,7 +201,7 @@ footer {
 
 .patasybigotes2 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin-left: 10%;
   margin-right: 10%;
@@ -219,9 +219,9 @@ footer {
   width: 500px;
   font-family: system-ui, sans-serif;
   color: #384957;
-  text-align: center;
   text-align: justify;
   padding: 25px !important;
+  justify-content: center;
 }
 
 .imagen2 {
@@ -237,7 +237,7 @@ footer {
 /*html rescata*/
 .patasybigotes-rescata {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin-left: 10%;
   margin-right: 10%;
@@ -248,7 +248,7 @@ footer {
   margin-top: 100px;
   margin-bottom: 100px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin-left: 10%;
   margin-right: 10%;
@@ -265,9 +265,9 @@ footer {
   width: 500px;
   font-family: system-ui, sans-serif;
   color: #384957;
-  text-align: center;
   text-align: justify;
   padding: 25px !important;
+  justify-content: center;
 }
 
 .imagen1-adopta {
@@ -280,7 +280,7 @@ footer {
 
 .patasybigotes2-adopta {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin-left: 10%;
   margin-right: 10%;
@@ -298,9 +298,9 @@ footer {
   width: 500px;
   font-family: system-ui, sans-serif;
   color: #384957;
-  text-align: center;
   text-align: justify;
   padding: 25px !important;
+  justify-content: center;
 }
 
 .imagen2-adopta {
@@ -324,7 +324,12 @@ footer {
 
 /*import mixin*/
 /*estilos de tablet*/
-@media (max-width: 600px) {
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  main {
+    padding: 0%;
+    margin: 0%;
+    border: 0cap;
+  }
   .patasybigotes {
     display: flex !important;
     flex-direction: column !important;
@@ -340,7 +345,6 @@ footer {
   .parrafo {
     width: 100%;
     height: 100%;
-    padding: 25px;
     font-family: system-ui, sans-serif;
     color: #384957;
     text-align: center;
@@ -349,8 +353,8 @@ footer {
   }
   .imagen1 {
     display: flex;
-    height: 350px;
-    width: 350px;
+    height: 90%;
+    width: 90%;
   }
   .imagen1 img {
     justify-content: space-around;
@@ -386,10 +390,11 @@ footer {
     height: 500px;
   }
   /*html dona*/
-  .patasybigotes-dona {
+  .patasybigotes {
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
+    justify-content: center;
   }
   .titulo-uno {
     padding: 20px;
@@ -397,8 +402,6 @@ footer {
     font-family: system-ui, sans-serif;
     font-size: x-large;
     color: #e27f38;
-    padding: 20px;
-    width: 90%;
   }
   .parrafo {
     width: 100%;
@@ -409,11 +412,11 @@ footer {
     text-align: center;
     text-align: justify;
     justify-content: center;
-    padding: 10px;
   }
   .imagen1 {
     display: flex;
-    width: 100%;
+    width: 350px;
+    height: 350px;
   }
   .imagen1 img {
     justify-content: space-around;
@@ -431,8 +434,6 @@ footer {
     font-family: system-ui, sans-serif;
     font-size: x-large;
     color: #e27f38;
-    padding: 20px;
-    width: 90%;
   }
   .parrafo-dos {
     width: 100%;
@@ -443,9 +444,6 @@ footer {
     color: #384957;
     text-align: center;
     text-align: justify;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
   }
   .imagen4 {
     display: flex;
@@ -454,8 +452,6 @@ footer {
     justify-content: space-around;
     width: 500px;
     height: 500px;
-    width: 350px;
-    height: 350px;
   }
   /*html adopta*/
   .patasybigotes-adopta {
@@ -486,18 +482,16 @@ footer {
   .imagen1-adopta {
     display: flex;
     width: 100%;
+    justify-content: space-evenly;
   }
   .imagen1-adopta img {
-    justify-content: space-around;
     width: 350px;
     height: 350px;
   }
   .patasybigotes2-adopta {
-    margin-top: 100px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row-reverse;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
   }
   .tituloh3-adopta {
     padding: 20px;
@@ -534,12 +528,12 @@ footer {
 }
 /*import mixin*/
 /*estilos de desktop*/
-@media (max-width: 1024px) {
+@media screen and (min-width: 1280px) and (max-width: 1728px) {
   .patasybigotes {
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -554,9 +548,9 @@ footer {
     width: 500px;
     font-family: system-ui, sans-serif;
     color: #384957;
-    text-align: center;
     text-align: justify;
     padding: 25px !important;
+    justify-content: center;
   }
   .imagen1 {
     display: flex;
@@ -566,7 +560,7 @@ footer {
   }
   .patasybigotes2 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -582,9 +576,9 @@ footer {
     width: 500px;
     font-family: system-ui, sans-serif;
     color: #384957;
-    text-align: center;
     text-align: justify;
     padding: 25px !important;
+    justify-content: center;
   }
   .imagen2 {
     display: flex;
@@ -640,7 +634,7 @@ footer {
   .patasybigotes-dona {
     margin-top: 100px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -655,9 +649,9 @@ footer {
     width: 500px;
     font-family: system-ui, sans-serif;
     color: #384957;
-    text-align: center;
     text-align: justify;
     padding: 25px !important;
+    justify-content: center;
   }
   .imagen1-dona {
     display: flex;
@@ -667,7 +661,7 @@ footer {
   }
   .patasybigotes2 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -683,22 +677,20 @@ footer {
     width: 500px;
     font-family: system-ui, sans-serif;
     color: #384957;
-    text-align: center;
     text-align: justify;
     padding: 25px !important;
+    justify-content: center;
   }
   .imagen2 {
     display: flex;
   }
   .imagen2 img {
     justify-content: space-around;
-    width: 500px;
-    height: 500px;
   }
   /*html rescata*/
   .patasybigotes-rescata {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -709,10 +701,11 @@ footer {
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
+    padding-left: 55px;
   }
   .tituloh2-adopta {
     text-align: center;
@@ -724,19 +717,22 @@ footer {
     width: 500px;
     font-family: system-ui, sans-serif;
     color: #384957;
-    text-align: center;
     text-align: justify;
     padding: 25px !important;
+    justify-content: center;
   }
   .imagen1-adopta {
     display: flex;
+    height: 500px;
   }
   .imagen1-adopta img {
     justify-content: space-around;
+    height: 500px;
+    padding: 90px;
   }
   .patasybigotes2-adopta {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -752,9 +748,9 @@ footer {
     width: 500px;
     font-family: system-ui, sans-serif;
     color: #384957;
-    text-align: center;
     text-align: justify;
     padding: 25px !important;
+    justify-content: center;
   }
   .imagen2-adopta {
     display: flex;
