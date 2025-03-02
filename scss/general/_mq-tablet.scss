@@ -2,7 +2,7 @@
 @import "../utilidades/mixin";
 
 /*estilos de tablet*/
-@media (min-width: 600px){
+@media (max-width: 600px){
     .patasybigotes {
         @include patasybigotesindextablet;
         }
@@ -17,6 +17,8 @@
         
     .imagen1 {
         @include imagenflex;
+        height: 350px;
+        width: 350px;
         }
         
     .imagen1 img{
@@ -24,7 +26,7 @@
         }
 
     .patasybigotes2{
-        @include patasybigotesid;
+        @include patasybigotesindextablet;
         }
             
     .titulo-dos{
@@ -71,7 +73,7 @@
         }
     
     .patasybigotes2{
-        @include patasybigotesid;
+        @include patasybigotesindextablet;
         }
                 
     .titulo-dos{

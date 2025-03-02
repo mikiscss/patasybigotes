@@ -34,6 +34,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 @mixin tituloindexhtml{
@@ -49,7 +51,7 @@
     color: #384957;
     text-align: center;
     text-align: justify;
-
+    padding: 25px !important;
 }
 
 @mixin imagenflex{
@@ -115,10 +117,10 @@
 }
 
 @mixin patasybigotesindextablet{
-    margin-top: 100px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+
 }
 
 @mixin patasybigotesindextabletitulo{

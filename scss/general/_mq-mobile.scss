@@ -43,18 +43,21 @@
     
     .imagen1 {
         @include imagenflex;
+        padding: 10px;
     }
     
     .imagen1 img{
         margin-top: 10px;
         justify-content: center;
+        width: 99%;
+        height: 99%;
     }
     
     /*2*/
     
     .patasybigotes2{
         @include mobilepatasybigotes;
-        }
+        }   
     
     
     .titulo-dos{
@@ -72,6 +75,8 @@
     .imagen2 img{
         margin-top: 10px;
         justify-content: center;
+        width: 99%;
+        height: 99%;
     }
     
     /*adopta*/
@@ -162,37 +167,38 @@
         @include mobileparrafo
     }
     
-    .imagen1-dona {
-        @include imagenflex
+    .imagen1 {
+        @include imagenflex;
+        height: 99%;
+        width: 99%;
     }
     
-    .imagen1-dona img{
+    .imagen1{
         @include mobileimagen;
-    }
-    
-    .imagen2-dona {
-        @include imagenflex
-    }
-    
-    .imagen2-dona img{
-        @include mobileimagen
     }
     
     /*2*/
-    .tituloh2-dona {
+    .patasybigotes2{
+        @include mobilepatasybigotes;
+    }
+    .titulo-dos {
         @include mobiletitulouno
     }
     
-    .parrafoh2-dona {
+    .parrafo-dos {
         @include mobileparrafo
     }
     
-    .imagen3-dona {
-        @include imagenflex
+    .imagen4-dona {
+        @include imagenflex;
+        width: 95%;
+        height: 95%
     }
     
-    .imagen2-dona img{
+    .imagen4 img{
         @include mobileimagen;
+        width: 99%;
+        height: 99%
     }
     
     /*mision*/
